@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    width: 100%;
+}
+.crew{
+    width: 100%;
+    height: 50vh;
+}
+.red{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 50vh; */
+}
+.fut{
+    color: #000543;
+    font-size: 3.5vmin;
+}
+.seven h3{
+    color: #000543;
+    font-size: 3.5vmin;
+}
+.seven p{
+    font-size: 2.5vmin;
+}
+.six img{
+    height: 10vh;
+}
+.number{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    width: 100%;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+}
+.six svg{
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    height: 5vh;
+    border-radius: 50%;
+}
+.crew img{
+    height: 50vh;
+    width: 100%;
+}
+
+
+@media screen and (max-width:1200px) {
+    .number{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .container{
+        padding: 20px;
+        min-height: 250px;
+    }
+    .crew img{
+        height: 40vh;
+    }
+    .number{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+       
+}

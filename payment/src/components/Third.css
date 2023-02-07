@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.client{
+    background-color: #000543;
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+.story{
+    color: white;
+    margin-top: 100px;
+}
+.story h1{
+    font-size: 3.5vmax;
+}
+.story p{
+font-size: 3.9vmin;
+}
+.ego{
+    margin-top: 30px;
+}
+.story img{
+    border-radius: 50%;
+    height: 15vh;
+    margin-top: 50px;
+}
+.story h2{
+    font-size: 2.0vmax;
+    margin-top: 30px;
+}
+.story h4{
+    font-size: 3.5vmin;
+    color: #0085E0;
+}
+.see{
+    background-color: white;
+    width: 100%;
+    padding: 100px;
+    min-height: 50vh;
+}
+.great{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+}
+.egos svg{
+    padding: 15px;
+}
+.egos{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: #0085FE;
+    position: relative;
+    left: 46%;
+    margin-top: 35px;
+    /* position: absolute; top: 480%; left: 47%; */
+}
+.own{
+    width: 100%;
+}
+.other{
+    width: 100%;
+}
+.own img{
+    height: 80vh;
+}
+.other h1{
+    font-size: 4.0vmax;
+    color: #000543;
+}
+.other p{
+    font-size: 3.0vmin;
+    color: #66718F;
+    position: relative;
+    bottom: 60px;
+}
+.other a{
+    color: #000543;
+    font-size: 3.0vmin;
+    text-decoration: none;
+    /* text-decoration: underline; */
+    /* padding-bottom:5px ; */
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    transition: ease-in-out .5s;
+}
+.other a:hover{
+    font-size: 30px;
+    transition: ease-in-out .5s;
+}
+.to{
+    margin-bottom: 100px;
+}
+.ready{
+    background-color: white;
+    width: 100%;
+    padding: 100px 200px;
+    height: 100vh;
+}
+.free{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+.freee{
+    width: 100%;
+}
+.freee h1{
+    font-size: 3.5vmax;
+    color: #000543;
+}
+.freee p{
+    font-size: 4.0vmin;
+    color: #747180;
+}
+.freeee{
+    width: 100%;
+}
+.freeee img{
+    height: 60vh;
+}
+
+.google{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+}
+.googlee{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+    .great{
+        width: 100%;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .own img{
+        height: 60vh;
+    }
+    .see{
+        background-color: white;
+        width: 100%;
+        padding: 30px;
+    }
+    .ready{
+        background-color: white;
+        width: 100%;
+        padding: 30px;
+        height: 100vh;
+    }
+    .free{
+        display: flex;
+        gap: 30px;
+        height: 30vh;
+        flex-direction: column;
+    }
+    .googlee{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        height: 4vh;
+        margin-top: 30px;
+    }
+    .freeee img{
+        height: 32vh;
+    }
+    .freee h1{
+        text-align: center;
+        font-size: 3.5vmax;
+        color: #000543;
+    }
+    .freee p{
+        text-align: center;
+    }
+    .to h1{
+        font-size: 4.0vmax;
+        width: 100%;
+        color: #000543;
+    }
+    .other p{
+        font-size: 3.5vmin;
+        color: #66718F;
+        position: relative;
+        bottom: 60px;
+    }
+          
+}
